@@ -34,9 +34,9 @@ class _FirstScreenState extends State<FirstScreen> {
               // Handle the result when the second page is popped
               if (result != null) {
                 print('Received result: $result');
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text('Received result: $result')),
-                );
+                // ScaffoldMessenger.of(context).showSnackBar(
+                //   SnackBar(content: Text('Received result: $result')),
+                // );
                 setState(() {
                   if (result.type == "Bike") {
                     bikevehicleList.add(result);
