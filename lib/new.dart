@@ -93,7 +93,7 @@ class _VehicleRegistrationState extends State<VehicleRegistration> {
                       return null;
                     },
                     decoration: const InputDecoration(
-                      label: Text("Vehicle Type"),
+                      label: Text("Vehicle Number"),
                       // border: OutlineInputBorder(),
                       labelStyle: TextStyle(color: Colors.black),
                       enabledBorder: OutlineInputBorder(
